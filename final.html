@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>budget planning app</title>
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="final.css">
+    
+   <!----<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.2.61/jspdf.min.js"></script>
+ -->
+</head>
+<body>
+  
+            <div class="intro" >
+                <div class="info" > 
+            <input style="width: 280px; height: 70px;padding: 5px;" type="number" id="newAmount" placeholder="Input Budget Amount Here...">
+
+            <button id="addAmount" class="pointer btn btn-primary" >Add </button>
+         <!-- <button type="button" class="btn btn-success" data-dismiss="modal">Close</button>-->
+        </div></div>
+        <!--</section>
+      </div>
+  
+    </div>
+  </div>
+    <main> -->
+    <section class="section1">
+
+    </section>
+    <section class="section2">
+        <section class="wrapper">
+            <section class="subwrapper">
+<h1 class="h1">BUDGET PLANNING APP</h1>
+<section class="mainsection">
+    <section class="mainsection1">
+        <div class="rect">
+            <h3 class="budget teal h3">BUDGET AMOUNT</h3>
+            <h3 class="amount" >Rs. <span id="amountbudget">0</span>/-</h3>
+        </div>
+        
+        <!--<div class="sub-rect">
+            <h3 class="teal pointer" id="top"  class="btn btn-primary" data-toggle="modal" data-target="#myModal"><i class="fa fa-plus-circle"></i> TOP UP</h3>
+        </div> -->
+    </section>
+    <section class="mainsection2">
+<div class="rect2">
+<div>
+    <input type="text" class="inputitem" id="input" placeholder="Purpose/Item">
+</div>
+<div>
+    <input type="number" class="inputcost" id="cost" placeholder="cost">
+</div>
+<div>
+    <div  class="inputbutton pointer btn white btn-success" id="create" >Add</div>
+</div>
+</div>
+<section class="br hide"><br><br></section>
+<div class="sub-rect2">
+    <section class="sub" id="file">
+    <section class="thead">
+        <div>S/N</div>
+        <div>Time</div>
+        <div>Purpose/Item</div>
+        <div>Cost</div>
+    </section>
+    <section class="tbody">
+        <div class="ol" id="ul">
+            
+        </div>
+    </section>
+    
+</section>
+
+</div>
+<div id="editor"></div>
+<br>
+
+<br>
+<section>
+    <section style="padding-top: 30px;">
+          
+      <div style="font-size: small; border: 1px dotted white; background-color: black;">
+    <h1 id="show" style="display: none !important;">0</h1>
+    <h1 id="added"></h1>
+    <div><h1 style="color: white;">Total Amount : N <span id="total">0<span></h1>
+        <!--<button id="checkSum" class="pointer">Check   Total</button>-->
+        <div><h1 style="color: white;">Balance: N <span id="balance">0</span></h1></div>
+    </div>
+    </div>
+        </section>
+  <div class="rect3">
+  <div class="pad1">
+      <div class="btn pointer btn-success" id="calculate"><h3 class="white">Check Balance: <i class="fa fa-calculator"></i></h3></div>
+  </div></div>
+ 
+  </section>
+  
+      </section>
+
+    <script src="final.js">
+
+    </script>
+     
+     <script>
+        $(window).load(function(){        
+  $('#myModal').modal('show');
+   }); 
+   </script>
+
+
+
+</body>
+
+
+</html>
