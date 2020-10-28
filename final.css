@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito&display=swap");
 /*html{
     background-color: #E6E6DC;
-    font-family: Nunito;
+    font-family: ;
 }
 /*footer{
    
@@ -22,7 +22,7 @@
 } */
 .add {
     border-radius: 2px;
-    height:10px;
+    height:8px;
     
 }
 #ul>div{
@@ -71,14 +71,14 @@ text-align: center;
 
 h1{
     color: #81A594;
-    font-family: Nunito;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: larger;
 
 }
 .h1{
     color: #E6E6DC;
-    font-family: Nunito;
-    font-size: 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
 }
 .intro {
     height: 40vh;
